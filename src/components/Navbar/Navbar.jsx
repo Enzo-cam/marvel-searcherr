@@ -5,6 +5,7 @@ import {
   NavSearch,
   InputSearch,
   NavBtn,
+  Search,
 //   NavTheme,
   NavBtnLink,
   NavHidden,
@@ -38,7 +39,9 @@ const Navbar = () => {
         </form>
       </NavMenu> */}
       <NavSearch>
-        <AiOutlineSearch />
+        <Search>
+            <AiOutlineSearch />
+        </Search>
         <InputSearch placeholder="Busque aqui su personaje de marvel" />
       </NavSearch>
       <NavBtn>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background-color: white;
-  height: 80px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-left: .4rem;
   padding: 0 0.3rem;
   height: 100%;
   cursor: pointer;
@@ -49,8 +50,16 @@ export const NavSearch = styled.div`
   align-items: center;
 `;
 
+export const Search = styled.h1`
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-right: .2rem;
+  color: black;
+`;
+
 export const InputSearch = styled.input`
   flex-grow: 1;
+  font-size: .9rem;
   background-color: white;  
   border: 1px solid gray;
   padding: 10px 5px;
@@ -67,7 +76,7 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavTheme = styled.button`
-  color: #bdbdbd;
+  color: black;
   border-radius: 2px;
   padding: 10px 12px;
   border: none;
